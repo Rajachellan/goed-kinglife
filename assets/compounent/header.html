@@ -1,0 +1,66 @@
+<!-- Header Start -->
+<div class="max-w-7xl mx-auto w-full flex items-center justify-between">
+    <!-- Brand Identity Logo -->
+    <a href="index.html" class="flex items-center">
+        <img src="assets/images/icons/header-logo.svg" alt="Goed Properties Logo" class="h-10 md:h-12 w-auto object-contain transition-transform duration-300 hover:scale-105">
+    </a>
+
+    <!-- Desktop Navigation Menu -->
+    <nav class="hidden lg:flex items-center space-x-8 font-inter text-sm font-semibold tracking-wider uppercase text-luxuryDark">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="properties.html" class="nav-link">Properties</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="hidden lg:block">
+        <a href="contact.html" class="btn-brand-gradient inline-block text-xs font-bold uppercase tracking-widest py-4 px-8 rounded-luxury hover-lift">
+            Book Consultation
+        </a>
+    </div>
+
+    <!-- Responsive Hamburger Menu Icon -->
+    <button id="mobile-menu-btn" class="lg:hidden text-luxuryDark focus:outline-none p-2" aria-label="Toggle Navigation Menu">
+        <div class="w-6 h-0.5 bg-luxuryDark mb-1.5 transition-transform duration-300"></div>
+        <div class="w-6 h-0.5 bg-luxuryDark mb-1.5 transition-opacity duration-300"></div>
+        <div class="w-6 h-0.5 bg-luxuryDark transition-transform duration-300"></div>
+    </button>
+</div>
+
+<!-- Mobile Navigation Drawer Overlay -->
+<div id="drawer-overlay" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[200] opacity-0 pointer-events-none transition-opacity duration-500"></div>
+
+<!-- Mobile Drawer -->
+<div id="mobile-nav-drawer" class="fixed top-0 right-0 h-full w-80 max-w-full bg-white z-[210] shadow-2xl translate-x-full transition-transform duration-500 flex flex-col p-8 font-inter">
+    <!-- Header Inside Drawer -->
+    <div class="flex items-center justify-between pb-6 border-b border-luxuryBorder">
+        <img src="assets/images/icons/header-logo.svg" alt="Goed Properties Logo" class="h-8 w-auto object-contain">
+        <button id="close-drawer-btn" class="text-luxuryDark text-2xl focus:outline-none" aria-label="Close Mobile Drawer">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Navigation Links -->
+    <nav class="flex flex-col space-y-3 py-6 text-base font-semibold text-luxuryDark tracking-wide">
+        <a href="index.html" class="block py-3 px-4 rounded-luxury hover:bg-brandRed/10 hover:text-brandRed transition-all duration-300">Home</a>
+        <a href="about.html" class="block py-3 px-4 rounded-luxury hover:bg-brandRed/10 hover:text-brandRed transition-all duration-300">About</a>
+        <a href="properties.html" class="block py-3 px-4 rounded-luxury hover:bg-brandRed/10 hover:text-brandRed transition-all duration-300">Properties</a>
+        <a href="services.html" class="block py-3 px-4 rounded-luxury hover:bg-brandRed/10 hover:text-brandRed transition-all duration-300">Services</a>
+        <a href="contact.html" class="block py-3 px-4 rounded-luxury hover:bg-brandRed/10 hover:text-brandRed transition-all duration-300">Contact</a>
+    </nav>
+
+    <!-- Mobile Drawer CTA Button -->
+    <div class="mt-auto pt-6 border-t border-luxuryBorder space-y-6">
+        <a href="contact.html" class="block text-center btn-brand-gradient font-bold text-sm uppercase tracking-widest py-4 rounded-luxury">
+            Book Consultation
+        </a>
+        <div class="flex justify-center space-x-6 text-luxuryGray">
+            <a href="#" class="hover:text-brandRed transition-colors duration-300 text-lg"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="hover:text-brandRed transition-colors duration-300 text-lg"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="hover:text-brandRed transition-colors duration-300 text-lg"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="hover:text-brandRed transition-colors duration-300 text-lg"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
