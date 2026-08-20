@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18344101576"></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1019939484172686');
+        fbq('track', 'PageView');
+        /* Lead Conversion Event */
+        fbq('track', 'Lead');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1019939484172686&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "xyo705afpm");
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18344101576');
+        /* Event snippet for lead conversion */
+        gtag('event', 'conversion', { 'send_to': 'AW-18344101576' });
+    </script>
+
+    <title>Thank You | Shriram Codename King Life Koyambedu</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/codename-king-life/sriramproperties-logo.jpeg">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Thank you for submitting your enquiry for Shriram Codename King Life in Koyambedu. Our property expert will contact you shortly.">
+
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Custom Style Assets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+
+    <!-- Tailwind Config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#127dc5',
+                        brandRedDark: '#0e629b',
+                        luxuryDark: '#111827',
+                        luxurySlate: '#F8FAFC',
+                        luxuryGray: '#64748B',
+                        luxuryBorder: '#E5E7EB',
+                    },
+                    fontFamily: {
+                        playfair: ['"Playfair Display"', 'serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        'luxury': '20px',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Thank You custom checkmark animation */
+        .success-checkmark-wrapper {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 24px;
+        }
+
+        .success-circle-bg {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(18, 125, 197, 0.15), rgba(16, 185, 129, 0.2));
+            animation: pulseGlow 2.5s infinite ease-in-out;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.12);
+                opacity: 0.4;
+            }
+        }
+
+        .checkmark-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            stroke-width: 2.5;
+            stroke: #10B981;
+            stroke-miterlimit: 10;
+            box-shadow: inset 0px 0px 0px #10B981;
+            animation: fillCheck 0.4s ease-in-out 0.4s forwards, scaleCheck 0.3s ease-in-out 0.9s bounce;
+            position: relative;
+            z-index: 10;
+        }
+
+        .checkmark-circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 2.5;
+            stroke-miterlimit: 10;
+            stroke: #10B981;
+            fill: none;
+            animation: strokeCircle 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+
+        .checkmark-check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: strokeCheck 0.35s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+        }
+
+        @keyframes strokeCircle {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes strokeCheck {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-[#F8FAFC] text-luxuryDark font-inter antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- =========================
+    HEADER / NAVIGATION
+    ========================= -->
+    <header id="siteHeader"
+        class="sticky top-0 left-0 z-50 w-full bg-white/95 backdrop-blur-xl shadow-sm border-b border-luxuryBorder">
+        <div class="h-[4px] w-full bg-brandRed"></div>
+
+        <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12">
+            <div class="flex items-center justify-between h-[82px]">
+
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="assets/images/codename-king-life/sriramproperties-logo.jpeg" alt="Shriram Properties Logo"
+                        class="w-[92px] sm:w-[105px] h-auto">
+                </a>
+
+                <!-- Action CTAs -->
+                <div class="flex items-center gap-3 sm:gap-4">
+                    <a href="tel:+919344214839"
+                        class="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-brandRed/10 text-brandRed flex items-center justify-center hover:bg-brandRed hover:text-white transition"
+                        aria-label="Call Goed Properties">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+
+                    <a href="https://wa.me/919344214839?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20for%20Shriram%20Codename%20King%20Life"
+                        target="_blank" rel="noopener noreferrer"
+                        class="hidden sm:inline-flex items-center justify-center rounded-full bg-[#25D366] text-white px-5 py-3 text-[12px] font-bold tracking-[0.08em] uppercase shadow-md hover:bg-[#1EBE5D] transition gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp Us</span>
+                    </a>
+
+                    <a href="index.html"
+                        class="inline-flex items-center justify-center rounded-full border-2 border-brandRed text-brandRed px-4 sm:px-6 py-2.5 sm:py-3 text-[11px] sm:text-[12px] font-bold tracking-[0.08em] uppercase hover:bg-brandRed hover:text-white transition gap-2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <span>Back to Home</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========================
+    MAIN THANK YOU CONTENT
+    ========================= -->
+    <main class="flex-grow py-12 sm:py-16 lg:py-20 px-5 sm:px-8">
+        <div class="max-w-4xl mx-auto">
+            
+            <!-- Hero Thank You Card -->
+            <div class="bg-white rounded-2xl sm:rounded-3xl shadow-xl shadow-slate-200/60 border border-luxuryBorder p-6 sm:p-10 lg:p-12 text-center relative overflow-hidden">
+                <!-- Background decorative shapes -->
+                <div class="absolute -top-24 -right-24 w-60 h-60 rounded-full bg-brandRed/5 blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-24 -left-24 w-60 h-60 rounded-full bg-emerald-500/5 blur-3xl pointer-events-none"></div>
+
+                <!-- Animated Success Badge -->
+                <div class="success-checkmark-wrapper">
+                    <div class="success-circle-bg"></div>
+                    <svg class="checkmark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark-circle" cx="26" cy="26" r="23" fill="none" />
+                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                </div>
+
+                <!-- Main Heading -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-semibold text-[12px] sm:text-[13px] tracking-wide uppercase mb-4 border border-emerald-200/60">
+                    <i class="fa-solid fa-circle-check text-emerald-600 text-xs"></i>
+                    <span>Enquiry Received Successfully</span>
+                </div>
+
+                <h1 class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-luxuryDark leading-tight mb-4">
+                    Thank You For Your Interest!
+                </h1>
+
+                <!-- Decorative ornament -->
+                <div class="flex items-center justify-center gap-2 mb-6">
+                    <span class="h-px w-12 bg-brandRed"></span>
+                    <span class="w-2 h-2 rotate-45 bg-brandRed"></span>
+                    <span class="h-px w-12 bg-brandRed"></span>
+                </div>
+
+                <p class="text-base sm:text-lg text-luxuryGray leading-relaxed max-w-2xl mx-auto mb-8">
+                    Your request for <strong class="text-luxuryDark font-semibold">Shriram Codename King Life</strong> in Koyambedu has been logged. Our property expert will review your requirements and get back to you within <span class="text-brandRed font-bold">15 minutes</span>.
+                </p>
+
+                <!-- Next Steps Info Box -->
+                <div class="bg-slate-50 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-left border border-slate-200/80 mb-10">
+                    <h3 class="font-playfair text-lg sm:text-xl font-bold text-luxuryDark mb-4 flex items-center gap-2.5">
+                        <i class="fa-solid fa-clipboard-list text-brandRed"></i>
+                        <span>What Happens Next?</span>
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="bg-white p-5 rounded-xl border border-luxuryBorder/80 shadow-sm flex flex-col justify-between">
+                            <div>
+                                <div class="w-10 h-10 rounded-lg bg-brandRed/10 text-brandRed flex items-center justify-center mb-3 text-lg font-bold">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                </div>
+                                <h4 class="font-bold text-luxuryDark text-sm mb-1">1. Priority Callback</h4>
+                                <p class="text-xs text-luxuryGray leading-relaxed">Our senior advisor will call to provide pricing breakdowns & layout guidance.</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-xl border border-luxuryBorder/80 shadow-sm flex flex-col justify-between">
+                            <div>
+                                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 text-lg font-bold">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                </div>
+                                <h4 class="font-bold text-luxuryDark text-sm mb-1">2. Brochure & Cost Sheet</h4>
+                                <p class="text-xs text-luxuryGray leading-relaxed">Complete floor plans, brochure & cost matrix delivered to your phone.</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-xl border border-luxuryBorder/80 shadow-sm flex flex-col justify-between">
+                            <div>
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center mb-3 text-lg font-bold">
+                                    <i class="fa-solid fa-car-side"></i>
+                                </div>
+                                <h4 class="font-bold text-luxuryDark text-sm mb-1">3. VIP Site Tour</h4>
+                                <p class="text-xs text-luxuryGray leading-relaxed">Schedule a private site visit with free cab assistance upon request.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to action buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="index.html"
+                        class="w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-brandRed px-8 py-4 text-white font-bold tracking-[0.08em] uppercase text-xs sm:text-sm hover:bg-brandRedDark transition shadow-lg shadow-brandRed/20 gap-2">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Return to Main Website</span>
+                    </a>
+
+                    <a href="https://wa.me/919344214839?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20for%20Shriram%20Codename%20King%20Life"
+                        target="_blank" rel="noopener noreferrer"
+                        class="w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-[#25D366] px-8 py-4 text-white font-bold tracking-[0.08em] uppercase text-xs sm:text-sm hover:bg-[#1EBE5D] transition shadow-lg shadow-emerald-600/20 gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+
+                    <a href="tel:+919344214839"
+                        class="w-full sm:w-auto inline-flex items-center justify-center rounded-full border border-luxuryDark/20 bg-white px-8 py-4 text-luxuryDark font-bold tracking-[0.08em] uppercase text-xs sm:text-sm hover:bg-slate-100 transition gap-2">
+                        <i class="fa-solid fa-phone text-brandRed"></i>
+                        <span>Call +91 93442 14839</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project Highlights Summary -->
+            <div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                <div class="bg-white p-5 rounded-2xl border border-luxuryBorder shadow-sm">
+                    <div class="text-brandRed text-xl mb-1.5"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="font-bold text-luxuryDark text-sm">Koyambedu</div>
+                    <div class="text-xs text-luxuryGray">Prime Location</div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-luxuryBorder shadow-sm">
+                    <div class="text-brandRed text-xl mb-1.5"><i class="fa-solid fa-bed"></i></div>
+                    <div class="font-bold text-luxuryDark text-sm">3 & 4 BHK</div>
+                    <div class="text-xs text-luxuryGray">Luxury Residences</div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-luxuryBorder shadow-sm">
+                    <div class="text-brandRed text-xl mb-1.5"><i class="fa-solid fa-building-columns"></i></div>
+                    <div class="font-bold text-luxuryDark text-sm">20,000 Sq.Ft</div>
+                    <div class="text-xs text-luxuryGray">Grand Clubhouse</div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-luxuryBorder shadow-sm">
+                    <div class="text-brandRed text-xl mb-1.5"><i class="fa-solid fa-[#127dc5] fa-indian-rupee-sign"></i></div>
+                    <div class="font-bold text-luxuryDark text-sm">₹1.8 Cr* Onwards</div>
+                    <div class="text-xs text-luxuryGray">Exclusive Pricing</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- =========================
+    FOOTER
+    ========================= -->
+    <footer class="bg-white border-t border-luxuryBorder py-8 px-5 sm:px-8">
+        <div class="max-w-[960px] mx-auto text-center space-y-3">
+            <p class="text-[11px] sm:text-[12px] text-luxuryGray leading-relaxed">
+                The content is for information purposes only and does not constitute an offer to avail of any
+                service. Prices mentioned are subject to change without notice and properties mentioned are subject
+                to availability. Images for representation purposes only.
+            </p>
+            <p class="text-[10px] sm:text-[11px] text-luxuryGray/80">
+                This is the official website of authorized marketing partner. We may share data with RERA registered
+                brokers/companies for further processing. We may also send updates to the mobile number/email id
+                registered with us. All Rights Reserved.
+            </p>
+            <p class="text-[10px] sm:text-[11px] text-luxuryGray/80"> Copyright © Authorised Marketing Partner |
+                Goed Properties & Promoters | All rights reserved. | Terms and Condition | Privacy policy
+            </p>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Action Bar -->
+    <div
+        class="mobile-action-bar lg:hidden fixed bottom-0 left-0 right-0 z-50 grid grid-cols-3 bg-white border-t border-luxuryBorder shadow-[0_-6px_24px_rgba(15,23,42,0.1)]">
+        <a href="index.html" class="text-luxuryDark hover:bg-[#F8F7F5] py-3 text-center text-xs font-semibold flex flex-col items-center justify-center gap-1">
+            <span class="text-brandRed text-base"><i class="fa-solid fa-house"></i></span>
+            Home
+        </a>
+        <a href="tel:+919344214839" class="text-white bg-brandRed hover:bg-brandRedDark border-x border-brandRedDark/20 py-3 text-center text-xs font-semibold flex flex-col items-center justify-center gap-1">
+            <span class="text-base"><i class="fa-solid fa-phone"></i></span>
+            Call Expert
+        </a>
+        <a href="https://wa.me/919344214839?text=Hi%2C%20I%20just%20submitted%20an%20enquiry%20for%20Shriram%20Codename%20King%20Life"
+            target="_blank" rel="noopener noreferrer" class="text-[#128C7E] hover:bg-[#25D366]/10 py-3 text-center text-xs font-semibold flex flex-col items-center justify-center gap-1">
+            <span class="text-base"><i class="fa-brands fa-whatsapp"></i></span>
+            WhatsApp
+        </a>
+    </div>
+
+</body>
+
+</html>
